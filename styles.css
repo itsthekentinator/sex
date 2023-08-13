@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #FF0000; /* Passionate Red */
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 15px 30px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #800080; /* Purple */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #4B0082; /* Darker Purple on hover */
+}
