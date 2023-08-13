@@ -10,15 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
   ctx.fillStyle = "#FFFFFF"; // White color
   ctx.fillRect(150, 150, 100, 100); // Draw the first person
   ctx.fillRect(300, 150, 100, 100); // Draw the second person
-
-  const startButton = document.getElementById("startButton");
-  const roughButton = document.getElementById("roughButton");
-
-  startButton.addEventListener("click", () => {
-    // Your start button click logic here
-  });
-
-  roughButton.addEventListener("click", () => {
-    // Your "I want it rough" button click logic here
-  });
 });
+
+function goToStart() {
+  window.location.href = "https://www.example.com/start-link"; // Replace with your actual link
+}
+
+function goToRough() {
+  window.location.href = "https://www.example.com/rough-link"; // Replace with your actual link
+}
