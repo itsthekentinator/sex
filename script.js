@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 
-  // Draw the kissing illustration (simplified version)
+  // Draw the simplified illustration
   ctx.fillStyle = "#FFFFFF"; // White color
-  ctx.fillRect(100, 100, 100, 100); // Draw the first person
-  ctx.fillRect(300, 100, 100, 100); // Draw the second person
+  ctx.fillRect(150, 150, 100, 100); // Draw the first person
+  ctx.fillRect(300, 150, 100, 100); // Draw the second person
 
   const startButton = document.getElementById("startButton");
   const roughButton = document.getElementById("roughButton");
