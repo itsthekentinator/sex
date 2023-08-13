@@ -1,10 +1,8 @@
 // script.js
 function start() {
-  // Replace this URL with the actual link
-  window.location.href = "https://www.example.com/start-page";
+  window.location.href = "https://www.example.com/start-link";
 }
 
 function rough() {
-  // Replace this URL with the actual link
-  window.location.href = "https://www.example.com/rough-page";
+  window.location.href = "https://www.example.com/rough-link";
 }
